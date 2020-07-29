@@ -1,0 +1,142 @@
+// Tablets & Smaller
+@media (max-width: 800px) {
+  #header-home {
+    height: 30rem;
+    .header-content {
+      padding-top: 5rem;
+    }
+  }
+}
+// SmartPhones
+@media (max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
+    li {
+      padding: 1rem;
+    }
+  }
+  #header {
+    &-home {
+      height: 10rem;
+      border-bottom: 3px solid $main-color;
+      //   background-position: 20% 30%;
+      .header-content {
+        display: none;
+      }
+    }
+    &-inner {
+      height: 10rem;
+    }
+  }
+
+  //   Stack Grid Columns
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #ab-5 .reviews,
+  .items {
+    grid-template-columns: 1fr;
+  }
+  #home {
+    &-a {
+      .specials div {
+        border-bottom: 1px $light-color solid;
+        padding-bottom: 1rem;
+
+        &:last-child {
+          border: none;
+          padding-bottom: 0;
+        }
+      }
+    }
+    &-b {
+      .stats div {
+        padding: 2rem 0 1rem 0;
+      }
+    }
+  }
+  // About
+  #ab {
+    &-1 {
+      grid-template-columns: 1fr;
+    }
+    &-2 {
+      #awards {
+        grid-template-columns: 1fr;
+      }
+    }
+    &-4 {
+      //   .ab-logos {
+      //     grid-template-columns: 1fr;
+      //     height: 130vh;
+      //   }
+      display: none;
+    }
+  }
+
+  //   contact
+  #contact {
+    &-a {
+      .text-fields {
+        grid-template-areas:
+          "name"
+          "subject"
+          "email"
+          "phone"
+          "message";
+      }
+    }
+    &-b {
+      .contact-info {
+        grid-template-columns: 1fr;
+        // margin-bottom: 2rem;
+        div {
+          margin-bottom: 1rem;
+          padding-bottom: 1rem;
+          border-bottom: 1px #555 solid;
+          &:last-child {
+            border: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+    &-c {
+      font-size: 1.2rem;
+    }
+  }
+
+  //   Footer
+  #main-footer {
+    height: 7rem;
+    .footer-content {
+      font-size: 1.1rem;
+      flex-direction: column;
+      padding: 1rem;
+      height: 5rem;
+      .social .fab {
+        border: none;
+      }
+    }
+  }
+}
+// Landscape
+@media (max-height: 500px) {
+  #header-home {
+    .header-content {
+      padding-top: 3rem;
+    }
+  }
+}
+
+@media (max-height: 330px) {
+  #header-home {
+    .header-content {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
