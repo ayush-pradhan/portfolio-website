@@ -64,7 +64,7 @@ img {
 // Header
 #header {
   &-home {
-    background: url("../img/back3.jpg") no-repeat center right/ cover;
+    background: url("../img/asd.jpg") no-repeat center right/ cover;
     height: 100vh;
     color: #fff;
 
@@ -72,6 +72,7 @@ img {
     .header-content {
       text-align: center;
       padding-top: 20%;
+
       h1 {
         font-size: 4rem;
         line-height: 1.2;
@@ -79,7 +80,7 @@ img {
     }
   }
   &-inner {
-    background: url("../img/back3.jpg") no-repeat 70% 20% / cover;
+    background: url("../img/asd.jpg") no-repeat 70% 20% / cover;
     height: 5.5rem;
     border-bottom: 3px solid $main-color;
   }
