@@ -186,18 +186,18 @@ img {
 
     .social .fab {
       margin-right: 1rem;
-      border: 2px #fff solid;
+      border: none;
       background: $dark-color;
       color: set-text-color($dark-color);
-      border-radius: 50%;
+      // border-radius: 50%;
       height: 42px;
       width: 42px;
       line-height: 20px;
       text-align: center;
       padding-top: 0.55rem;
       &:hover {
-        background: $main-color;
-        color: #444;
+        // background: $main-color;
+        color: #ffbc00;
       }
     }
   }
