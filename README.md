@@ -1,3 +1,5 @@
 # portfolio-website
 
-My portfolio website. Needs some more upgrades.
+Live preview : https://ayushpradhan.netlify.app/
+
+Anyone can use this template
